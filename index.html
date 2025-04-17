@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8" />
+
+    <!-- Ensures compatibility with older versions of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Makes the layout responsive on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Links the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Title of the webpage shown in the browser tab -->
+    <title>Calculator - By Bhavya Singh Pawar</title>
+  </head>
+  <body>
+    <!-- Main container for the calculator -->
+    <div class="container">
+      <div class="calculator">
+        
+        <!-- Input field to show the entered numbers and results -->
+        <input type="text" id="inputBox" placeholder="0" />
+
+        <!-- First row of calculator buttons -->
+        <div>
+          <button class="button operator">AC</button> <!-- Clear all -->
+          <button class="button operator">DEL</button> <!-- Delete last input -->
+          <button class="button operator">%</button> <!-- Modulus operator -->
+          <button class="button operator">/</button> <!-- Division operator -->
+        </div>
+
+        <!-- Second row of number and operator buttons -->
+        <div>
+          <button class="button">7</button>
+          <button class="button">8</button>
+          <button class="button">9</button>
+          <button class="button operator">*</button> <!-- Multiplication operator -->
+        </div>
+
+        <!-- Third row -->
+        <div>
+          <button class="button">4</button>
+          <button class="button">5</button>
+          <button class="button">6</button>
+          <button class="button operator">-</button> <!-- Subtraction operator -->
+        </div>
+
+        <!-- Fourth row -->
+        <div>
+          <button class="button">1</button>
+          <button class="button">2</button>
+          <button class="button">3</button>
+          <button class="button operator">+</button> <!-- Addition operator -->
+        </div>
+
+        <!-- Fifth and final row -->
+        <div>
+          <button class="button">00</button> <!-- Double zero -->
+          <button class="button">0</button>
+          <button class="button">.</button> <!-- Decimal point -->
+          <button class="button equalBtn">=</button> <!-- Equal button to show result -->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Link to the external JavaScript file that handles calculator logic -->
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- End of HTML document -->
